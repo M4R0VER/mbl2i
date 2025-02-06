@@ -2,32 +2,27 @@ nav {
     background-color: #333;
     padding: 10px 20px;
 }
-
-ul {
+.nav-menu {
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
-
-ul li {
+.nav-menu li {
     margin-right: 20px;
     padding-left: 30px;
 }
-
-ul li a {
+.nav-menu li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
 }
-
-ul li a:hover {
+.nav-menu li a:hover {
     border-bottom: 1px solid;
     color: #ff7f32;
 }
-
 body {
     background-color: #D3D3D3; 
     color: black; 
@@ -52,19 +47,21 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     color: orangered;
 }
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
 #acceuilDef{
     font-weight: 700;
 }
-.iconlist
-{
+.iconlist{
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -79,25 +76,54 @@ footer {
 #contacter{
     text-align: left;
 }
-
+#hautDePage{
+    text-align: center;
+}
 .img{
     position: absolute;
     mix-blend-mode: multiply;
     
     left: 50%;
-    transform: translate(200%, -220%);
-  
+    transform: translate(300%, -40%);
 }
 .oblique{
     font-style: oblique;
     ;
 }
 .mod{
-    text-decoration-line: underline;
     text-decoration-style: double;
 }
 .ft{
     text-align: center;
-
 }
+
+.imgd{
+    position: absolute;
+    mix-blend-mode: multiply;
+    left: 50%;
+    transform: translate(200%, -45%);
+}
+.tde{
+    color: orangered;
+    font-style: oblique;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+.content h3{
+    margin-top: 0;
+    flex:0
+}
+.content p {
+    flex: 3;
+    text-align: justify;
+}
+
+.content img {
+    flex: 1;
+}
+
 
